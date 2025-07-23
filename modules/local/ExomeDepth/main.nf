@@ -11,7 +11,7 @@ process EXOMEDEPTH_CALL {
 
   script:
   """
-  Rscript run_exomedepth.R \\
+  Rscript ExomeDepthScript.R \\
     --bam ${bam} \\
     --bed ${bed_file} \\
     --out ${meta.id}.exomedepth.txt
