@@ -1,0 +1,16 @@
+name: exomedepth
+description: |
+  Runs ExomeDepth to call CNVs from a BAM file using a BED file of target regions.
+keywords:
+  - CNV
+  - ExomeDepth
+  - R
+tools:
+  - exomedepth
+input:
+  - meta: Sample metadata, e.g. id
+  - bam: BAM file (aligned exome)
+  - bed_file: BED file with capture regions
+output:
+  - meta: Sample metadata
+  - txt: ExomeDepth CNV calls (text file)
