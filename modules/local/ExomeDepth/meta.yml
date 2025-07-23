@@ -11,6 +11,8 @@ input:
   - meta: Sample metadata, e.g. id
   - bam: BAM file (aligned exome)
   - bed_file: BED file with capture regions
+  - control_bams: Comma-separated BAM files used as control set
+  - fasta: Reference genome used in CNV read counting
 output:
   - meta: Sample metadata
   - txt: ExomeDepth CNV calls (text file)
