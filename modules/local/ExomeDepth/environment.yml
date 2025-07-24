@@ -1,0 +1,15 @@
+name: exomedepth-env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+  - bioconductor
+dependencies:
+  - r-base=4.2
+  - r-optparse
+  - bioconductor-exomedepth
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer
+  - bioconductor-iranges
+  - bioconductor-s4vectors
