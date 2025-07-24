@@ -2,6 +2,8 @@ process EXOMEDEPTH_CALL {
 
   tag "${meta.id}"
 
+  conda = './environment.yml'
+
   input:
     tuple val(meta), path(test_bam)
     val(control_bams) // list of paths (strings)
